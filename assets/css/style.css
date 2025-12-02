@@ -1,20 +1,17 @@
 :root {
-    --primary-color: 
+    
 }
 
 /* font-family: Science Gothic,  Share Tech */
 @import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Share+Tech&display=swap');
 
+/* Header */
 
 
-/* TEST */
-p {
-    font-family: "Scinece Gothic", sans-serif;
-    text-transform: uppercase;
+/* Main */
+main {
+    min-height: 90vh;
 }
 
-.asd {
-    font-family: "Share Tech", sans-serif;
-    text-transform: lowercase;
-    color: brown;
-}
+/* Footer */
+
