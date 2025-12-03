@@ -1,16 +1,27 @@
 :root {
+    --color-alpha: #735F50;
+    --color-beta: #C6B49A;
+    --color-gamma: #566F96;
+    --color-delta: #8DA9CE;
+    --color-omega: #F7F7F7;
+}
+
+/* Header */
+#logo {
+    margin: 0 0.5rem;
+}
+
+/* Main */
+
+
+/* Footer */
+
+
+/* Screen Size */
+@media screen and (min-width: 576px){
     
 }
 
-/* font-family: Science Gothic,  Share Tech */
-@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Share+Tech&display=swap');
-
-/* Header */
-
-
-/* Main */
-main {
-    min-height: 90vh;
+@media screen and (min-width: 992px){
+    
 }
-
-/* Footer */
