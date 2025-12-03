@@ -6,10 +6,19 @@
     --color-omega: #F7F7F7;
 }
 
-/* Header */
-#logo {
-    margin: 0 0.5rem;
+/* Nav */
+#navbar {
+    background-color: var(--color-alpha);;
 }
+.nav-logo {
+    width: 30px;
+}
+.nav-link {
+    color: var(--color-beta)
+}
+
+/* Header */
+
 
 /* Main */
 
