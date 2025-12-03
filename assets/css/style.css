@@ -21,7 +21,19 @@
 
 
 /* Main */
+section {
+    margin-top: 1rem;
+}
+#contacts {
+    justify-content: center;
 
+}
+#contactd2 {
+    margin-bottom: 1rem;
+}
+#contact-cards > div {
+    margin-bottom: 2rem;
+}
 
 /* Footer */
 
@@ -34,7 +46,7 @@ nav ~ * {
 
 }
 .row {
-    
+
 }
 
 /* Screen Size */
