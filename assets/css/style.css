@@ -106,10 +106,16 @@ footer {
 #footercon i {
     color: var(--color-beta);
     font-size: 2rem;
+    transition: all 0.3s ease;
 }
 #socmed {
     margin: 0 auto;
     max-width: 80%;
+}
+#footercon i:hover {
+    color: var(--color-omega);
+    transition: color 0.3s ease;
+    animation: fa-beat 1s infinite;
 }
 
 /* Screen Size */
