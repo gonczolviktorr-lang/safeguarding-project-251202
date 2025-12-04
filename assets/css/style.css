@@ -1,0 +1,110 @@
+:root {
+    --color-alpha: #735F50; /* BG */
+    --color-beta: #eed8b9;  /* text */
+    --color-gamma: #566F96; /* BG */
+    --color-delta: #8d99ce; /* text */
+    --color-omega: #F7F7F7; /* text/hover */
+}
+
+/* Global */
+nav ~ * {
+    padding: 1rem;
+
+}
+h1, h2 {
+    color: var(--color-gamma);
+}
+.card {
+    background-color: var(--color-gamma);
+    color: var(--color-beta);
+    border-color: var(--color-delta);
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 1rem;
+    height: 100%;
+}
+.card p {
+    color: var(--color-omega);
+}
+
+/* Nav */
+#nav-logo-card {
+    background-color: var(--color-beta);
+    border-width: 0px;
+    padding: 5px;
+    border-radius: 50%;
+}
+#navbar {
+    background-color: var(--color-alpha);;
+}
+.nav-logo {
+    width: 30px;
+}
+.nav-link {
+    color: var(--color-beta)
+}
+#navbar i {
+    color: var(--color-beta);
+    font-size: 1.5rem;
+}
+.nav-link:hover {
+    color: var(--color-omega);
+    
+}
+
+/* Main */
+section {
+}
+#contacts {
+    justify-content: center;
+
+}
+#contactd2 {
+    margin-bottom: 1rem;
+}
+#contact-cards > div {
+    margin-bottom: 2rem;
+}
+#signsbox > div > div {
+    margin-bottom: 2rem;
+}
+.text-center h3 {
+    text-align: left;
+    margin: 0.2rem 0.6rem;
+}
+.boxwidth {
+    max-width: 400px;
+    margin: auto;
+}
+#youtube {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+#youtube div {
+    background-color: var(--color-beta);
+    border-color: var(--color-alpha);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-alpha);
+    color: var(--color-beta);
+}
+#footercon i {
+    color: var(--color-beta);
+    font-size: 2rem;
+}
+#socmed {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+/* Screen Size */
+@media screen and (min-width: 576px){
+    
+}
+
+@media screen and (min-width: 992px){
+    
+}
