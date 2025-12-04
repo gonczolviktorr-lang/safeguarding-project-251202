@@ -43,9 +43,14 @@ h1, h2 {
 .nav-link {
     color: var(--color-beta)
 }
-
-/* Header */
-
+#navbar i {
+    color: var(--color-beta);
+    font-size: 1.5rem;
+}
+.nav-link:hover {
+    color: var(--color-omega);
+    
+}
 
 /* Main */
 section {
@@ -67,9 +72,14 @@ section {
     text-align: left;
     margin: 0.2rem 0.6rem;
 }
+.boxwidth {
+    max-width: 400px;
+    margin: auto;
+}
 #youtube {
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 #youtube div {
     background-color: var(--color-beta);
@@ -77,7 +87,18 @@ section {
 }
 
 /* Footer */
-
+footer {
+    background-color: var(--color-alpha);
+    color: var(--color-beta);
+}
+#footercon i {
+    color: var(--color-beta);
+    font-size: 2rem;
+}
+#socmed {
+    margin: 0 auto;
+    max-width: 80%;
+}
 
 /* Screen Size */
 @media screen and (min-width: 576px){
