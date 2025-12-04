@@ -1,9 +1,9 @@
 :root {
-    --color-alpha: #735F50;
-    --color-beta: #C6B49A;
-    --color-gamma: #566F96;
-    --color-delta: #8DA9CE;
-    --color-omega: #F7F7F7;
+    --color-alpha: #735F50; /* BG */
+    --color-beta: #eed8b9;  /* text */
+    --color-gamma: #566F96; /* BG */
+    --color-delta: #8d99ce; /* text */
+    --color-omega: #F7F7F7; /* text/hover */
 }
 
 /* Nav */
@@ -17,8 +17,34 @@
     color: var(--color-beta)
 }
 
-/* Header */
+/* Global */
+nav ~ * {
+    padding: 1rem;
 
+}
+h1, h2 {
+    color: var(--color-gamma);
+}
+.card {
+    background-color: var(--color-gamma);
+    color: var(--color-beta);
+    border-color: var(--color-delta);
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 1rem;
+    height: 100%;
+}
+.card p {
+    color: var(--color-omega);
+}
+
+/* Header */
+#nav-logo-card {
+    background-color: var(--color-beta);
+    border-width: 0px;
+    padding: 5px;
+    border-radius: 50%;
+}
 
 /* Main */
 section {
@@ -34,20 +60,16 @@ section {
 #contact-cards > div {
     margin-bottom: 2rem;
 }
+#signsbox > div > div {
+    margin-bottom: 2rem;
+}
+.text-center h3 {
+    text-align: left;
+    margin: 0.2rem 0.6rem;
+}
 
 /* Footer */
 
-
-/* Global */
-nav ~ * {
-    padding: 1rem;
-}
-.card {
-
-}
-.row {
-
-}
 
 /* Screen Size */
 @media screen and (min-width: 576px){
