@@ -75,9 +75,6 @@ section {
 #contactd2 {
     margin-bottom: 1rem;
 }
-#contact-cards > div {
-    margin-bottom: 2rem;
-}
 #signsbox {
     margin-bottom: 1rem;
 }
@@ -100,6 +97,10 @@ section {
 #youtube div {
     background-color: var(--color-beta);
     border-color: var(--color-alpha);
+}
+#SYReport {
+    max-width: 250px;
+    margin: auto;
 }
 
 /* Footer */
