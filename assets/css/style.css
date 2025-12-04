@@ -6,17 +6,6 @@
     --color-omega: #F7F7F7; /* text/hover */
 }
 
-/* Nav */
-#navbar {
-    background-color: var(--color-alpha);;
-}
-.nav-logo {
-    width: 30px;
-}
-.nav-link {
-    color: var(--color-beta)
-}
-
 /* Global */
 nav ~ * {
     padding: 1rem;
@@ -38,17 +27,28 @@ h1, h2 {
     color: var(--color-omega);
 }
 
-/* Header */
+/* Nav */
 #nav-logo-card {
     background-color: var(--color-beta);
     border-width: 0px;
     padding: 5px;
     border-radius: 50%;
 }
+#navbar {
+    background-color: var(--color-alpha);;
+}
+.nav-logo {
+    width: 30px;
+}
+.nav-link {
+    color: var(--color-beta)
+}
+
+/* Header */
+
 
 /* Main */
 section {
-    margin-top: 1rem;
 }
 #contacts {
     justify-content: center;
@@ -66,6 +66,14 @@ section {
 .text-center h3 {
     text-align: left;
     margin: 0.2rem 0.6rem;
+}
+#youtube {
+    display: flex;
+    justify-content: center;
+}
+#youtube div {
+    background-color: var(--color-beta);
+    border-color: var(--color-alpha);
 }
 
 /* Footer */
