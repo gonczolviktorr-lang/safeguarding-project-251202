@@ -99,7 +99,7 @@ section {
     border-color: var(--color-alpha);
 }
 #SYReport {
-    max-width: 250px;
+    max-width: 500px;
     margin: auto;
 }
 
