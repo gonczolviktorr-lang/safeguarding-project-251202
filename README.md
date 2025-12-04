@@ -14,7 +14,11 @@ https://gonczolviktorr-lang.github.io/safeguarding-project-251202/
 | Example Color | ![#8d99ce](https://via.placeholder.com/10/00b48a?text=+) #8d99ce |
 | Example Color | ![#F7F7F7](https://via.placeholder.com/10/00b48a?text=+) #F7F7F7 |
 
-
+This colors representing:
+- Trust
+- Loyalty
+- Support
+- Purity
 ## Wireframe
 
 ![App Screenshot](https://raw.githubusercontent.com/gonczolviktorr-lang/safeguarding-project-251202/refs/heads/main/assets/Tests%20n%20Wireframe/Layout%20Plane.png)
