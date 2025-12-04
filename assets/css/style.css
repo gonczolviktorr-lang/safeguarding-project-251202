@@ -5,6 +5,10 @@
     --color-delta: #8d99ce; /* text */
     --color-omega: #F7F7F7; /* text/hover */
 }
+@keyframes fa-beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
 
 /* Global */
 nav ~ * {
@@ -40,16 +44,24 @@ h1, h2 {
 .nav-logo {
     width: 30px;
 }
-.nav-link {
-    color: var(--color-beta)
-}
 #navbar i {
     color: var(--color-beta);
     font-size: 1.5rem;
 }
+.nav-link {
+    color: var(--color-beta);
+    transition: all 0.3s ease;
+}
 .nav-link:hover {
     color: var(--color-omega);
-    
+    animation: fa-beat 1s infinite;    
+}
+#navbar .nav-link.active:hover {
+    color: var(--color-omega);
+    animation: fa-beat 1s infinite;    
+}
+#navbar .nav-link.active {
+    color: var(--color-delta);
 }
 
 /* Main */
