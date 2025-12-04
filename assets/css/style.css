@@ -30,6 +30,10 @@ h1, h2 {
 .card p {
     color: var(--color-omega);
 }
+.row {
+    max-width: 350px;
+    margin: auto;
+}
 
 /* Nav */
 #nav-logo-card {
@@ -63,6 +67,9 @@ h1, h2 {
 #navbar .nav-link.active {
     color: var(--color-delta);
 }
+#signsbox {
+    margin-bottom: 1rem;
+}
 
 /* Main */
 section {
@@ -75,9 +82,6 @@ section {
     margin-bottom: 1rem;
 }
 #contact-cards > div {
-    margin-bottom: 2rem;
-}
-#signsbox > div > div {
     margin-bottom: 2rem;
 }
 .text-center h3 {
@@ -119,10 +123,14 @@ footer {
 }
 
 /* Screen Size */
-@media screen and (min-width: 576px){
-    
+@media screen and (min-width: 768px){
+    .row {
+        max-width: 700px;
+    }
 }
 
-@media screen and (min-width: 992px){
-    
+@media screen and (min-width: 1200px){
+    .row {
+        max-width: 1200px;
+    }
 }
